@@ -1,0 +1,11 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}
+  </h1>
+  <h2>
+    I am parent
+  </h2>
+</div>
+<div>
+  <app-student [myinputMsg]="myInputMessage" (myOutput)="getChildData($event)"></app-student>
+</div>
